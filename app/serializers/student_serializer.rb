@@ -1,5 +1,5 @@
 class StudentSerializer < ActiveModel::Serializer
-  attributes :name, :major, :age, :instructor_id
+  attributes :name, :major, :age
 
   belongs_to :instructor
 end
